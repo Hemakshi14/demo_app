@@ -19,8 +19,9 @@ gem 'coffee-rails', '4.0.1'
 # Use jquery as the JavaScript library
 gem 'jquery-rails','3.0.4'
 
-gem 'turbolinks','1.1.1'
-
+#gem 'turbolinks','1.1.1'
+gem 'turbolinks', '~> 2.5.3'
+gem 'pry'
 gem 'jbuilder', '1.0.2'
 # bundle exec rake doc:rails generates the API under doc/api.
 group :doc do
@@ -41,4 +42,3 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
