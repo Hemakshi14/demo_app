@@ -6,6 +6,13 @@ ruby '2.3.1'
 gem 'rails', '4.2.6'
 
 gem 'sqlite3'
+gem 'rspec-rails', '2.13.1'
+
+group :test do
+  gem 'selenium-webdriver', '2.35.1'
+  gem 'capybara', '2.1.0'
+end
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.3'
@@ -43,6 +50,6 @@ group :development do
   gem 'spring'
 end
 
-group :development, :test do
-  gem 'rspec-rails', '~> 3.5'
-end
+#group :development, :test do
+#  gem 'rspec-rails', '~> 3.5'
+#end
