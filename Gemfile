@@ -4,7 +4,8 @@ ruby '2.3.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
-
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'sprockets', '2.11.0'
 gem 'sqlite3'
 #gem 'rspec-rails', '2.13.1'
 
@@ -30,6 +31,7 @@ gem 'jquery-rails','3.0.4'
 gem 'turbolinks', '~> 2.5.3'
 gem 'pry'
 gem 'jbuilder', '1.0.2'
+gem 'launchy'
 # bundle exec rake doc:rails generates the API under doc/api.
 group :doc do
 gem 'sdoc', '0.3.20', require: :false
